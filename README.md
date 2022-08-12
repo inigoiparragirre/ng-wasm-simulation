@@ -1,4 +1,20 @@
-# NgWasmSimulation
+# ng-wasm-simulation
+An Angular based demo for displaying Wasm Rust library  interacting with wasm-bindgen and simulating Conway's Game of Life
+
+
+## Installation
+
+```npm install```
+
+## Installation of Rust library
+  
+  ```wasm-pack build```
+
+# Requirements
+* Angular CLI (v13.2.6)
+* Rustc (v1.62.0)
+* wasm-pack
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
