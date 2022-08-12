@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { greet } from 'wasm-universe';
 
 @Component({
   selector: 'simulation',
@@ -10,6 +11,7 @@ export class UniverseComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    greet();
   }
 
 }

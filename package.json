@@ -21,7 +21,7 @@
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4",
-    "wasm-universe": "file:../pkg"
+    "wasm-universe": "file:./wasm-universe/pkg"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.2.6",
