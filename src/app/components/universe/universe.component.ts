@@ -3,7 +3,7 @@ import { greet, Universe, Cell } from 'wasm-universe';
 import { memory } from "wasm-universe/wasm_universe_bg.wasm";
 
 
-const CELL_SIZE = 5; // px
+const CELL_SIZE = 10; // px
 const GRID_COLOR = '#CCCCCC';
 const DEAD_COLOR = '#FFFFFF';
 const ALIVE_COLOR = '#000000';
@@ -57,6 +57,8 @@ export class UniverseComponent implements OnInit, AfterViewInit {
     
       window.requestAnimationFrame(renderLoop);
     };
+
+    renderLoop();
   }
 
   drawGrid() {
