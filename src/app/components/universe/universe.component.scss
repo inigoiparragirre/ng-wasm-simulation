@@ -1,0 +1,16 @@
+.square-size {
+  width: 800px;
+  height: 800px;
+  background-color: blue;
+  border: 1px solid #000;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: top 0.5s, left 0.5s;
+}
+
+p {
+  text-align: center;
+}
